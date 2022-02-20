@@ -1,0 +1,261 @@
+/*GENERAL*/
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+:root{
+    --0: white;
+    --1: black;
+    --gold: #be9f56;
+    --2: var(--gold);
+    --green: #07987d;
+    --3: var(--green)
+}
+
+/*MENU*/
+#menuIcon{
+    width: 4%;
+    margin: 2% 0% 0% 2%;
+
+    cursor: pointer;
+    position: absolute;
+    display: block;
+}
+
+#menu{
+    width: 20%;
+    height: 82.5%;
+    margin: 0% 0 0 0;
+    padding: 10% 0 0 0;
+
+    background-color: var(--gold);
+    opacity: 90%;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+}
+
+.tab{
+    width: 90%;
+    margin: 15% 0;
+
+    color: black;
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Akaya Telivigala', cursive;
+    text-shadow: 0px 2px 0px #07987d;
+}
+
+.tab:hover{
+    color: var(--green);
+    text-shadow: 2px 2px 2px black;
+}
+
+#firma {
+    width: 20%;
+    bottom: 0%;
+    margin: 65% 40% 0 35%;
+    cursor: none;
+}
+
+/*∀x∈ℜ*/
+#pagina{
+    margin: -55% 0 0 0;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.title{
+    cursor: default;
+    
+    font-family: 'Redressed', cursive;
+    text-shadow: 5px 1px 1px #be9f56;
+}
+
+.link{
+    color: black;
+    text-shadow: 1px 1px 1px var(--gold);
+}
+
+/*HOME*/ 
+#intestazione{
+    width: 60%;
+    margin: 15% 2% 0 2%;
+}
+
+#welcome{
+    margin: 2% 0 0 20%;
+
+    font-size: 225%;
+    font-family: 'Redressed', cursive;
+    text-shadow: 1px 0px 1px white;
+}
+
+#titoloHome{
+    margin: 2% 0% 0 12%;
+    font-size: 700%;
+}
+
+.slogan{
+    margin: 15% 20%;
+
+    font-size: 150%;
+    font-family: 'Akaya Telivigala', cursive;
+    text-shadow: 1px 0px 1px white;
+}
+
+#fotoTartufi{
+    width: 30%;
+    margin: 10% 10% 0 0%;
+    align-self: center;
+}
+
+#sfondo{
+    width: 62%;
+    height: 95%;
+    margin: 1.5% 0% 0% 0%;
+
+}
+
+
+
+
+/*TRUFFLES*/
+
+#titoloTruff{
+    width: 50%;
+    font-size: 800%;
+    margin: 10% 25%;
+
+    position: absolute;
+    text-align: center;
+}
+
+#intro{
+    width:  40%;
+    margin: 30%;
+    padding: 1% 0% 7% 0%;
+
+    background: var(--green);
+    border-radius: 25px;
+    position: absolute;
+    box-shadow: 10px 10px 50px black;
+
+    font-size: 200%;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px var(--gold);
+}
+
+#search{
+    width: 30%;
+    height: 5%;
+    margin: 35% 35%;
+
+    
+    position: absolute;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px var(--gold);
+
+    text-align: center;
+    
+}
+
+#sfondoTruffles{
+    width: 87%;
+    margin: 10% 0% 0% 7%;
+}
+
+
+/*FIND US*/
+
+#FINDUS{
+    background: var(--green);
+}
+
+#titleBox{
+    display: flex;
+    flex-direction: row;
+    background: var(--green);
+    margin: 0 0 0 15%;
+}
+
+#titoloFind{
+    width: 10%;
+    height: 50%;
+    margin: 12% 5% 0% 15%;
+    padding: 0.5%;
+    
+    font-size: 1200%;
+}
+
+#titoloUs{
+    width: 10%;
+    height: 50%;
+    margin: 15% 5% 0% 25%;
+    padding: 0.5%;
+    
+    font-size: 750%;
+}
+
+#lente{
+    width: 30%;
+    height: 30%;
+    margin: 10% 0% 0 -21%;
+}
+
+.BaianoMap{
+    perspective: 950px;
+    width: 70%;
+    margin: -2% -15% 0 7%;
+}
+
+.BaianoMap img{
+    transform: rotateX(45deg);
+    box-shadow: 10px 10px 20px white;
+    width: 70%;
+}
+
+#ping{
+    width: 10%;
+    height: 25%;
+    margin: 15% -40%;
+    position: absolute;
+    box-shadow: 0px 0px 0px white;
+    transform: rotateX(-45deg);
+}
+
+.secondary{
+    width: 80%;
+    margin: 10% 6%;
+    padding: 2%;
+
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px -10px 0px var(--gold);
+}
+
+.terziary{
+    display: flex;
+    flex-direction: row;
+}
+
+#testo{
+    width: 55%;
+    margin: 3% 0 0 0;
+    font-size: 150%;
+    font-family: 'Akaya Telivigala', cursive;
+    text-align: justify;
+}   
+
+#Contacts{
+    margin: 0 0% 0 0%;
+    color: rgb(59, 11, 192);
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 200%;
+    font-weight: bolder;
+}
